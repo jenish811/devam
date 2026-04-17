@@ -24,17 +24,59 @@ function ThemeToggle() {
     <button
       type="button"
       onClick={toggleTheme}
-      className="group inline-flex h-11 items-center gap-3 rounded-full border border-obsidian/10 bg-white px-3 text-xs font-semibold uppercase tracking-[0.14em] text-obsidian transition hover:border-champagne dark:border-porcelain/16 dark:bg-graphite dark:text-porcelain"
-      aria-label="Toggle dark mode"
+      className="relative inline-flex h-11 w-[84px] items-center rounded-full border border-obsidian/10 bg-white p-1 text-obsidian shadow-[0_10px_28px_rgba(17,16,14,0.08)] transition hover:border-champagne dark:border-porcelain/16 dark:bg-graphite dark:text-porcelain dark:shadow-luxury-dark"
+      aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
     >
-      <span className="relative h-6 w-11 rounded-full bg-obsidian/10 transition dark:bg-champagne/30">
-        <motion.span
-          className="absolute left-1 top-1 h-4 w-4 rounded-full bg-champagne shadow-sm"
-          animate={{ x: isDark ? 20 : 0 }}
-          transition={{ type: "spring", stiffness: 420, damping: 28 }}
-        />
+      <motion.span
+        className="absolute left-1 top-1 h-9 w-9 rounded-full bg-champagne shadow-[0_8px_18px_rgba(190,145,73,0.36)]"
+        animate={{ x: isDark ? 38 : 0 }}
+        transition={{ type: "spring", stiffness: 430, damping: 28 }}
+      />
+      <span className="relative z-10 grid h-9 w-9 place-items-center overflow-hidden rounded-full">
+        <motion.svg
+          aria-hidden="true"
+          viewBox="0 0 24 24"
+          className="h-5 w-5"
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          animate={{
+            rotate: isDark ? -90 : 0,
+            scale: isDark ? 0.62 : 1,
+            opacity: isDark ? 0.46 : 1,
+          }}
+          transition={{ type: "spring", stiffness: 360, damping: 24 }}
+        >
+          <circle cx="12" cy="12" r="4" />
+          <path d="M12 2v2" />
+          <path d="M12 20v2" />
+          <path d="m4.93 4.93 1.41 1.41" />
+          <path d="m17.66 17.66 1.41 1.41" />
+          <path d="M2 12h2" />
+          <path d="M20 12h2" />
+          <path d="m6.34 17.66-1.41 1.41" />
+          <path d="m19.07 4.93-1.41 1.41" />
+        </motion.svg>
       </span>
-      <span>{isDark ? "Light" : "Dark"}</span>
+      <span className="relative z-10 grid h-9 w-9 place-items-center overflow-hidden rounded-full">
+        <motion.svg
+          aria-hidden="true"
+          viewBox="0 0 24 24"
+          className="h-5 w-5"
+          fill="currentColor"
+          animate={{
+            rotate: isDark ? 0 : 90,
+            scale: isDark ? 1 : 0.62,
+            opacity: isDark ? 1 : 0.46,
+          }}
+          transition={{ type: "spring", stiffness: 360, damping: 24 }}
+        >
+          <path d="M21 14.6A8.5 8.5 0 0 1 9.4 3a7.7 7.7 0 1 0 11.6 11.6Z" />
+          <path d="M17 4.6 17.7 6l1.5.7-1.5.7L17 8.8l-.7-1.4-1.5-.7 1.5-.7L17 4.6Z" />
+        </motion.svg>
+      </span>
     </button>
   );
 }
