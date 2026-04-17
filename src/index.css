@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+::selection {
+  background: #c9a65b;
+  color: #11100e;
+}
+
+.luxury-container {
+  width: min(100% - 2rem, 1180px);
+  margin-inline: auto;
+}
+
+.hairline {
+  background: linear-gradient(90deg, transparent, rgba(201, 166, 91, 0.75), transparent);
+  height: 1px;
+}
+
+.brand-logo {
+  display: inline-flex;
+  height: 3.6rem;
+  width: 15rem;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.brand-logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media (min-width: 768px) {
+  .brand-logo {
+    height: 3.75rem;
+    width: 16rem;
+  }
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.marquee-track {
+  animation: marquee 28s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

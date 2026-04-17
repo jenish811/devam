@@ -1,0 +1,160 @@
+export const whatsappNumber = "918511318630";
+
+export const driveImage = (fileId) =>
+  `https://drive.google.com/uc?export=view&id=${fileId}`;
+
+const wallantqImage = (path) => `https://wallantq.com/wp-content/uploads/${path}`;
+
+export const products = [
+  {
+    id: 1,
+    slug: "round-mandala-3d-wall-art",
+    name: "Round Mandala 3D Wall Art",
+    image: wallantqImage("2019/01/WMNXMF22-1024x1024.jpg"),
+    gallery: [
+      wallantqImage("2019/01/WMNXMF22-1024x1024.jpg"),
+      wallantqImage("2019/01/WMNXMF22-600x600.jpg"),
+      wallantqImage("2019/01/WMNXMF22-scaled.jpg"),
+    ],
+    description: "A large-scale multi-layer mandala with intricate laser-cut depth and balanced color.",
+    price: "$765",
+    dimension: "36 x 36 x 1.5 inches",
+    weight: "10 kg",
+    colors: "Yellow, red, green, blue, orange",
+    category: "Mandala Art",
+    featured: true,
+  },
+  {
+    id: 2,
+    slug: "vibrant-round-mandala-art",
+    name: "Vibrant Round Mandala Art",
+    image: wallantqImage("2024/07/WMNXMF05-1024x1024.jpg"),
+    gallery: [
+      wallantqImage("2024/07/WMNXMF05-1024x1024.jpg"),
+      wallantqImage("2024/07/WMNXMF05-600x600.jpg"),
+      wallantqImage("2024/07/WMNXMF05-scaled.jpg"),
+    ],
+    description: "A vivid circular composition with layered MDF geometry and a radiant central motif.",
+    price: "$765",
+    dimension: "36 x 36 x 1.5 inches",
+    weight: "10 kg",
+    colors: "Yellow, red, blue, orange",
+    category: "Mandala Art",
+    featured: true,
+  },
+  {
+    id: 3,
+    slug: "vibrant-abstract-female-wall-art",
+    name: "Vibrant Abstract Female Wall Art",
+    image: wallantqImage("2024/07/WINXMF00-1024x1024.jpg"),
+    gallery: [
+      wallantqImage("2024/07/WINXMF00-1024x1024.jpg"),
+      wallantqImage("2024/07/WINXMF00-600x600.jpg"),
+      wallantqImage("2024/07/WINXMF00-scaled.jpg"),
+    ],
+    description: "A modern female figure shaped with flowing layers, bold color, and geometric movement.",
+    price: "$510",
+    dimension: "24 x 36 x 1.5 inches",
+    weight: "6.5 kg",
+    colors: "Yellow, red, blue, green, pink",
+    category: "Inspiration Art",
+    featured: true,
+  },
+  {
+    id: 4,
+    slug: "abstract-female-bird-3d-art",
+    name: "Abstract Female & Bird 3D Art",
+    image: wallantqImage("2024/07/WINXMF02-1-1024x1024.jpg"),
+    gallery: [
+      wallantqImage("2024/07/WINXMF02-1-1024x1024.jpg"),
+      wallantqImage("2024/07/WINXMF02-1-600x600.jpg"),
+      wallantqImage("2024/07/WINXMF02-1-scaled.jpg"),
+    ],
+    description: "A collector piece with expressive linework, layered depth, and a graceful bird motif.",
+    price: "$510",
+    dimension: "24 x 36 x 1.5 inches",
+    weight: "6.5 kg",
+    colors: "Yellow, red, blue, green, pink",
+    category: "Inspiration Art",
+    featured: false,
+  },
+  {
+    id: 5,
+    slug: "exquisite-mandala-3d-wood-wall-art",
+    name: "Exquisite Mandala 3D Wood Wall Art",
+    image: wallantqImage("2024/07/WMNXMF27_sq-1024x1024.jpg"),
+    gallery: [
+      wallantqImage("2024/07/WMNXMF27_sq-1024x1024.jpg"),
+      wallantqImage("2024/07/WMNXMF27_sq-600x600.jpg"),
+      wallantqImage("2024/07/WMNXMF27_sq-scaled.jpg"),
+    ],
+    description: "A layered square mandala with a floral core, soft tonal contrast, and sculptural symmetry.",
+    price: "$765",
+    dimension: "24 x 36 x 1.5 inches",
+    weight: "10 kg",
+    colors: "Brown, yellow, red, beige, green, orange",
+    category: "Mandala Art",
+    featured: true,
+  },
+  {
+    id: 6,
+    slug: "elegant-woman-silhouette-3d-art",
+    name: "Elegant Woman Silhouette 3D Art",
+    image: wallantqImage("2024/07/WINXMF04-1024x1024.jpg"),
+    gallery: [
+      wallantqImage("2024/07/WINXMF04-1024x1024.jpg"),
+      wallantqImage("2024/07/WINXMF04-600x600.jpg"),
+      wallantqImage("2024/07/WINXMF04-scaled.jpg"),
+    ],
+    description: "A sophisticated silhouette with flowing hair and precision-cut internal geometry.",
+    price: "$340",
+    dimension: "24 x 24 x 1.5 inches",
+    weight: "4 kg",
+    colors: "Brown, red, beige",
+    category: "Inspiration Art",
+    featured: false,
+  },
+  {
+    id: 7,
+    slug: "vibrant-mandala-3d-wood-wall-art",
+    name: "Vibrant Mandala 3D Wood Wall Art",
+    image: wallantqImage("2024/07/WMNXMF27-1024x1024.jpg"),
+    gallery: [
+      wallantqImage("2024/07/WMNXMF27-1024x1024.jpg"),
+      wallantqImage("2024/07/WMNXMF27-600x600.jpg"),
+      wallantqImage("2024/07/WMNXMF27-scaled.jpg"),
+    ],
+    description: "A 48-inch statement mandala with warm tones, dramatic depth, and collector presence.",
+    price: "$1,020",
+    dimension: "48 x 36 x 1.5 inches",
+    weight: "12 kg",
+    colors: "Brown, yellow, red, orange, green",
+    category: "Mandala Art",
+    featured: true,
+  },
+  {
+    id: 8,
+    slug: "elaborate-mandala-3d-wood-wall-art",
+    name: "Elaborate Mandala 3D Wood Wall Art",
+    image: wallantqImage("2024/07/WMNXMF19-1024x1024.jpg"),
+    gallery: [
+      wallantqImage("2024/07/WMNXMF19-1024x1024.jpg"),
+      wallantqImage("2024/07/WMNXMF19-600x600.jpg"),
+      wallantqImage("2024/07/WMNXMF19-scaled.jpg"),
+    ],
+    description: "An elongated wall composition with rich warm tones and finely nested laser-cut layers.",
+    price: "$680",
+    dimension: "48 x 24 x 1.5 inches",
+    weight: "8 kg",
+    colors: "Brown, yellow, red, orange, green",
+    category: "Mandala Art",
+    featured: true,
+  },
+];
+
+export const getWhatsAppLink = (productName = "Wallantq wall art") =>
+  `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+    `Hi, I am interested in ${productName}`,
+  )}`;
+
+export const featuredProducts = products.filter((product) => product.featured);

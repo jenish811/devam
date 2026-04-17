@@ -1,0 +1,35 @@
+
+> wallantq-luxury-website@1.0.0 dev
+> vite --host 0.0.0.0
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m5492[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.1.17:[1m5173[22m/[39m
+[2m12:41:42 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/HeroSection.jsx, /src/index.css[22m
+[2m12:45:10 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx, /src/index.css[22m
+[2m12:45:10 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m12:45:10 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/ProductDetail.jsx, /src/index.css[22m
+[2m12:45:10 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.jsx, /src/index.css[22m
+[2m12:45:10 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/ProductCard.jsx, /src/index.css[22m
+[2m12:46:05 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx, /src/index.css[22m
+[2m12:51:35 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m12:51:58 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx, /src/index.css[22m
+[2m12:52:07 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.jsx, /src/index.css[22m
+[2m12:52:50 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/HeroSection.jsx, /src/index.css[22m
+[2m12:53:17 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m12:54:05 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/HeroSection.jsx, /src/index.css[22m
+[2m12:56:44 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx, /src/index.css[22m
+[2m12:56:44 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m12:56:44 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.jsx, /src/index.css[22m
+[2m1:01:19 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx, /src/index.css[22m
+[2m1:01:31 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m1:01:32 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m1:02:07 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx, /src/index.css[22m
+[2m1:04:16 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/HeroSection.jsx, /src/index.css[22m
+[2m1:04:56 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/HeroSection.jsx, /src/index.css[22m
+[2m1:07:31 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/WhatsAppButton.jsx, /src/index.css[22m
+[2m1:08:05 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/WhatsAppButton.jsx, /src/index.css[22m
+[2m1:08:32 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/WhatsAppButton.jsx, /src/index.css[22m
+[2m1:09:43 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/WhatsAppButton.jsx, /src/index.css[22m
